@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+
+<title> Assignment #1/Question 3 </title>
+    
+</head>
+    
+<body>
+    
+<h1> Abdul's Apartment Search Form </h1>
+    
+<form action = "0">
+    
+    <fieldset>
+    
+    <legend> Renter(s) Information</legend>
+        
+    <p>
+    How many people will live in the apartment ?
+    <input type = "number" name="people" min="1" max="5"/>
+   
+    </p>
+        
+    
+    <p> 
+    Smoker?
+    
+    <input type="radio" name="Smoker"
+    id="yes" />
+    <label for="yes">Yes</label>
+    
+    <input type="radio" name="Smoker" id="no" /> 
+    <label for="no">No</label>    
+
+    </p>
+    
+    
+    <p>  Any pets?
+    <br>
+
+<input type="checkbox" name="Pets" id="cats" /> 
+<label for="cats">Cat(s)</label> <br>
+
+<input type="checkbox" name="Pets" id="dogs" />
+<label for="dogs">Dog(s)</label> <br>
+					
+<input type="checkbox" name="Pets" id="other" />
+<label for="other">Specify:</label>
+<input type="text" name="Pets" id="otherPets"/> <br>
+
+<input type="checkbox" name="Pets" 
+id ="none" />
+<label for="none">No Pets</label><br>
+
+    </p>
+    
+    </fieldset>
+    
+    
+    
+    <fieldset>
+    
+    <legend> What are you looking for?</legend>
+        
+    <ul>
+        
+        <li>
+            
+            <p>
+            Size of apartment: <br>
+                
+            <input type="checkbox" name="Size" id ="Studio" />
+            <label for="Studio">Studio</label>
+								
+            <input type="checkbox" name="Size" id ="ThreeHalf" />
+            <label for="ThreeHalf">3&frac12; </label>
+								
+            <input type="checkbox" name="Size" id ="FourHalf" />
+            <label for="FourHalf">4&frac12;</label>
+								
+            <input type="checkbox" name="Size" id="FiveHalf" />
+            <label for="FiveHalf">5&frac12;</label>
+								
+            <input type="checkbox" name="Size" id ="MoreFiveHalf" />
+            <label for="MoreFiveHalf">More than 5&frac12;</label>
+    
+            </p>
+        
+        </li>
+        
+        
+        <li>
+            
+            <p>
+                Price Range/month: <br>
+                
+                <select name="priceRange">
+				    
+                    <option id = "UnderFive"> &lt;$500 </option>
+				    <option id = "Five-Seven"> $500-$700 </option>
+				    <option id = "Seven-Thousand">  $700-$1000 </option>
+				    <option id = "NoRange"> No Price Limit </option>
+				
+                </select>
+    
+            </p>
+            
+        </li>
+        
+        
+        <li>
+        
+            <p>
+            Would be nice to have <br>
+                
+            <input type="checkbox" name="Have" id="Fireplace"/> <label for="Fireplace"> Fireplace </label>
+                
+            <input type="checkbox" name="Have" id="Laundromat"/> <label for="Laundromat"> Laundromat in building </label>
+            
+            <input type="checkbox" name="Have" id="Indoor Parking"/> <label for="Indoor Parking"> Indoor Parking </label>
+            
+            
+            <input type="checkbox" name="Have" id="Outdoor Parking"/> <label for="Outdoor Parking"> Outdoor Parking</label>
+            
+            <input type="checkbox" name="Have" id="Balcony"/> <label for="Balcony"> Balcony </label>
+            
+            </p>
+            
+        </li> 
+        
+    </ul>
+    
+    </fieldset>
+    
+    Let's see what we can find... <br>
+    
+    <input type="submit" value="Search" />
+    <input type="reset"  value="Start over" />
+    
+</form>
+
+</body>
+
+</html>
